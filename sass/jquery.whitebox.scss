@@ -12,14 +12,13 @@ $wb-overlay-opacity:0.8;
     @include translate3d(0, 0px);
   }
 }
-
 @include keyframes(wb-view-hide) {
   0% {
-    @include opacity(1);
+    opacity:1;
     @include translate3d(0, 0px);
   }
   100%{
-    @include opacity(1);
+    opacity:1;
     @include translate3d(0, 2000px);
   }
 }
@@ -85,7 +84,7 @@ body{background-color: #333;}
     //display: none;
   }
   #whitebox.show & {
-    @include opacity(1);
+    opacity:1;
     @include animation-name(wb-view-open);
     @include animation-timing-function(cubic-bezier(0,.92,.6,.99));
   }

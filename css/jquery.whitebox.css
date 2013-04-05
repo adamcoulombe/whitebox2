@@ -52,308 +52,298 @@
     transform: translate3d(0, 0px, 1em); } }
 
 @-moz-keyframes wb-view-hide {
-  /* line 17, ../sass/jquery.whitebox.scss */
+  /* line 16, ../sass/jquery.whitebox.scss */
   0% {
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
     opacity: 1;
     -moz-transform: translate3d(0, 0px, 1em);
     transform: translate3d(0, 0px, 1em); }
 
-  /* line 21, ../sass/jquery.whitebox.scss */
+  /* line 20, ../sass/jquery.whitebox.scss */
   100% {
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
     opacity: 1;
     -moz-transform: translate3d(0, 2000px, 1em);
     transform: translate3d(0, 2000px, 1em); } }
 
 @-webkit-keyframes wb-view-hide {
-  /* line 17, ../sass/jquery.whitebox.scss */
+  /* line 16, ../sass/jquery.whitebox.scss */
   0% {
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
     opacity: 1;
     -webkit-transform: translate3d(0, 0px, 1em);
     transform: translate3d(0, 0px, 1em); }
 
-  /* line 21, ../sass/jquery.whitebox.scss */
+  /* line 20, ../sass/jquery.whitebox.scss */
   100% {
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
     opacity: 1;
     -webkit-transform: translate3d(0, 2000px, 1em);
     transform: translate3d(0, 2000px, 1em); } }
 
 @-o-keyframes wb-view-hide {
-  /* line 17, ../sass/jquery.whitebox.scss */
+  /* line 16, ../sass/jquery.whitebox.scss */
   0% {
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
     opacity: 1;
     -o-transform: translate3d(0, 0px, 1em);
     transform: translate3d(0, 0px, 1em); }
 
-  /* line 21, ../sass/jquery.whitebox.scss */
+  /* line 20, ../sass/jquery.whitebox.scss */
   100% {
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
     opacity: 1;
     -o-transform: translate3d(0, 2000px, 1em);
     transform: translate3d(0, 2000px, 1em); } }
 
 @-ms-keyframes wb-view-hide {
-  /* line 17, ../sass/jquery.whitebox.scss */
+  /* line 16, ../sass/jquery.whitebox.scss */
   0% {
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
     opacity: 1;
     -ms-transform: translate3d(0, 0px, 1em);
     transform: translate3d(0, 0px, 1em); }
 
-  /* line 21, ../sass/jquery.whitebox.scss */
+  /* line 20, ../sass/jquery.whitebox.scss */
   100% {
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
     opacity: 1;
     -ms-transform: translate3d(0, 2000px, 1em);
     transform: translate3d(0, 2000px, 1em); } }
 
 @keyframes wb-view-hide {
-  /* line 17, ../sass/jquery.whitebox.scss */
+  /* line 16, ../sass/jquery.whitebox.scss */
   0% {
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
     opacity: 1;
     transform: translate3d(0, 0px, 1em); }
 
-  /* line 21, ../sass/jquery.whitebox.scss */
+  /* line 20, ../sass/jquery.whitebox.scss */
   100% {
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
     opacity: 1;
     transform: translate3d(0, 2000px, 1em); } }
 
 @-moz-keyframes wb-modal-open {
-  /* line 28, ../sass/jquery.whitebox.scss */
+  /* line 27, ../sass/jquery.whitebox.scss */
   0% {
     -moz-transform: rotate(90deg);
     transform: rotate(90deg); }
 
-  /* line 31, ../sass/jquery.whitebox.scss */
+  /* line 30, ../sass/jquery.whitebox.scss */
   100% {
     -moz-transform: rotate(0deg);
     transform: rotate(0deg); } }
 
 @-webkit-keyframes wb-modal-open {
-  /* line 28, ../sass/jquery.whitebox.scss */
+  /* line 27, ../sass/jquery.whitebox.scss */
   0% {
     -webkit-transform: rotate(90deg);
     transform: rotate(90deg); }
 
-  /* line 31, ../sass/jquery.whitebox.scss */
+  /* line 30, ../sass/jquery.whitebox.scss */
   100% {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg); } }
 
 @-o-keyframes wb-modal-open {
-  /* line 28, ../sass/jquery.whitebox.scss */
+  /* line 27, ../sass/jquery.whitebox.scss */
   0% {
     -o-transform: rotate(90deg);
     transform: rotate(90deg); }
 
-  /* line 31, ../sass/jquery.whitebox.scss */
+  /* line 30, ../sass/jquery.whitebox.scss */
   100% {
     -o-transform: rotate(0deg);
     transform: rotate(0deg); } }
 
 @-ms-keyframes wb-modal-open {
-  /* line 28, ../sass/jquery.whitebox.scss */
+  /* line 27, ../sass/jquery.whitebox.scss */
   0% {
     -ms-transform: rotate(90deg);
     transform: rotate(90deg); }
 
-  /* line 31, ../sass/jquery.whitebox.scss */
+  /* line 30, ../sass/jquery.whitebox.scss */
   100% {
     -ms-transform: rotate(0deg);
     transform: rotate(0deg); } }
 
 @keyframes wb-modal-open {
-  /* line 28, ../sass/jquery.whitebox.scss */
+  /* line 27, ../sass/jquery.whitebox.scss */
   0% {
     transform: rotate(90deg); }
 
-  /* line 31, ../sass/jquery.whitebox.scss */
+  /* line 30, ../sass/jquery.whitebox.scss */
   100% {
     transform: rotate(0deg); } }
 
 @-moz-keyframes wb-modal-hide {
-  /* line 37, ../sass/jquery.whitebox.scss */
+  /* line 36, ../sass/jquery.whitebox.scss */
   0% {
     -moz-transform: rotate(0deg);
     transform: rotate(0deg); }
 
-  /* line 40, ../sass/jquery.whitebox.scss */
+  /* line 39, ../sass/jquery.whitebox.scss */
   100% {
     -moz-transform: rotate(90deg);
     transform: rotate(90deg); } }
 
 @-webkit-keyframes wb-modal-hide {
-  /* line 37, ../sass/jquery.whitebox.scss */
+  /* line 36, ../sass/jquery.whitebox.scss */
   0% {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg); }
 
-  /* line 40, ../sass/jquery.whitebox.scss */
+  /* line 39, ../sass/jquery.whitebox.scss */
   100% {
     -webkit-transform: rotate(90deg);
     transform: rotate(90deg); } }
 
 @-o-keyframes wb-modal-hide {
-  /* line 37, ../sass/jquery.whitebox.scss */
+  /* line 36, ../sass/jquery.whitebox.scss */
   0% {
     -o-transform: rotate(0deg);
     transform: rotate(0deg); }
 
-  /* line 40, ../sass/jquery.whitebox.scss */
+  /* line 39, ../sass/jquery.whitebox.scss */
   100% {
     -o-transform: rotate(90deg);
     transform: rotate(90deg); } }
 
 @-ms-keyframes wb-modal-hide {
-  /* line 37, ../sass/jquery.whitebox.scss */
+  /* line 36, ../sass/jquery.whitebox.scss */
   0% {
     -ms-transform: rotate(0deg);
     transform: rotate(0deg); }
 
-  /* line 40, ../sass/jquery.whitebox.scss */
+  /* line 39, ../sass/jquery.whitebox.scss */
   100% {
     -ms-transform: rotate(90deg);
     transform: rotate(90deg); } }
 
 @keyframes wb-modal-hide {
-  /* line 37, ../sass/jquery.whitebox.scss */
+  /* line 36, ../sass/jquery.whitebox.scss */
   0% {
     transform: rotate(0deg); }
 
-  /* line 40, ../sass/jquery.whitebox.scss */
+  /* line 39, ../sass/jquery.whitebox.scss */
   100% {
     transform: rotate(90deg); } }
 
 @-moz-keyframes wb-overlay-open {
-  /* line 48, ../sass/jquery.whitebox.scss */
+  /* line 47, ../sass/jquery.whitebox.scss */
   0% {
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
     opacity: 0; }
 
-  /* line 51, ../sass/jquery.whitebox.scss */
+  /* line 50, ../sass/jquery.whitebox.scss */
   100% {
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
     opacity: 0.8; } }
 
 @-webkit-keyframes wb-overlay-open {
-  /* line 48, ../sass/jquery.whitebox.scss */
+  /* line 47, ../sass/jquery.whitebox.scss */
   0% {
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
     opacity: 0; }
 
-  /* line 51, ../sass/jquery.whitebox.scss */
+  /* line 50, ../sass/jquery.whitebox.scss */
   100% {
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
     opacity: 0.8; } }
 
 @-o-keyframes wb-overlay-open {
-  /* line 48, ../sass/jquery.whitebox.scss */
+  /* line 47, ../sass/jquery.whitebox.scss */
   0% {
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
     opacity: 0; }
 
-  /* line 51, ../sass/jquery.whitebox.scss */
+  /* line 50, ../sass/jquery.whitebox.scss */
   100% {
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
     opacity: 0.8; } }
 
 @-ms-keyframes wb-overlay-open {
-  /* line 48, ../sass/jquery.whitebox.scss */
+  /* line 47, ../sass/jquery.whitebox.scss */
   0% {
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
     opacity: 0; }
 
-  /* line 51, ../sass/jquery.whitebox.scss */
+  /* line 50, ../sass/jquery.whitebox.scss */
   100% {
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
     opacity: 0.8; } }
 
 @keyframes wb-overlay-open {
-  /* line 48, ../sass/jquery.whitebox.scss */
+  /* line 47, ../sass/jquery.whitebox.scss */
   0% {
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
     opacity: 0; }
 
-  /* line 51, ../sass/jquery.whitebox.scss */
+  /* line 50, ../sass/jquery.whitebox.scss */
   100% {
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
     opacity: 0.8; } }
 
 @-moz-keyframes wb-overlay-hide {
-  /* line 58, ../sass/jquery.whitebox.scss */
+  /* line 57, ../sass/jquery.whitebox.scss */
   0% {
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
     opacity: 0.8; }
 
-  /* line 61, ../sass/jquery.whitebox.scss */
+  /* line 60, ../sass/jquery.whitebox.scss */
   100% {
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
     opacity: 0; } }
 
 @-webkit-keyframes wb-overlay-hide {
-  /* line 58, ../sass/jquery.whitebox.scss */
+  /* line 57, ../sass/jquery.whitebox.scss */
   0% {
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
     opacity: 0.8; }
 
-  /* line 61, ../sass/jquery.whitebox.scss */
+  /* line 60, ../sass/jquery.whitebox.scss */
   100% {
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
     opacity: 0; } }
 
 @-o-keyframes wb-overlay-hide {
-  /* line 58, ../sass/jquery.whitebox.scss */
+  /* line 57, ../sass/jquery.whitebox.scss */
   0% {
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
     opacity: 0.8; }
 
-  /* line 61, ../sass/jquery.whitebox.scss */
+  /* line 60, ../sass/jquery.whitebox.scss */
   100% {
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
     opacity: 0; } }
 
 @-ms-keyframes wb-overlay-hide {
-  /* line 58, ../sass/jquery.whitebox.scss */
+  /* line 57, ../sass/jquery.whitebox.scss */
   0% {
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
     opacity: 0.8; }
 
-  /* line 61, ../sass/jquery.whitebox.scss */
+  /* line 60, ../sass/jquery.whitebox.scss */
   100% {
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
     opacity: 0; } }
 
 @keyframes wb-overlay-hide {
-  /* line 58, ../sass/jquery.whitebox.scss */
+  /* line 57, ../sass/jquery.whitebox.scss */
   0% {
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
     opacity: 0.8; }
 
-  /* line 61, ../sass/jquery.whitebox.scss */
+  /* line 60, ../sass/jquery.whitebox.scss */
   100% {
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
     opacity: 0; } }
 
-/* line 67, ../sass/jquery.whitebox.scss */
+/* line 66, ../sass/jquery.whitebox.scss */
 body {
   background-color: #333; }
 
-/* line 69, ../sass/jquery.whitebox.scss */
+/* line 68, ../sass/jquery.whitebox.scss */
 #whitebox {
   position: fixed;
   top: 0px;
   left: 0px; }
-  /* line 73, ../sass/jquery.whitebox.scss */
+  /* line 72, ../sass/jquery.whitebox.scss */
   #whitebox.closed {
     display: none; }
 
-/* line 77, ../sass/jquery.whitebox.scss */
+/* line 76, ../sass/jquery.whitebox.scss */
 #wb-view {
   position: absolute;
   width: 100%;
@@ -371,9 +361,8 @@ body {
   transform-origin: 50% 50%;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0; }
-  /* line 87, ../sass/jquery.whitebox.scss */
+  /* line 86, ../sass/jquery.whitebox.scss */
   #whitebox.show #wb-view {
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
     opacity: 1;
     -webkit-animation-name: wb-view-open;
     -moz-animation-name: wb-view-open;
@@ -385,7 +374,7 @@ body {
     -ms-animation-timing-function: cubic-bezier(0, 0.92, 0.6, 0.99);
     -o-animation-timing-function: cubic-bezier(0, 0.92, 0.6, 0.99);
     animation-timing-function: cubic-bezier(0, 0.92, 0.6, 0.99); }
-  /* line 92, ../sass/jquery.whitebox.scss */
+  /* line 91, ../sass/jquery.whitebox.scss */
   #whitebox.hide #wb-view {
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
     opacity: 0;
@@ -400,7 +389,7 @@ body {
     -o-animation-timing-function: cubic-bezier(0.63, 0.02, 0.03, 1);
     animation-timing-function: cubic-bezier(0.63, 0.02, 0.03, 1); }
 
-/* line 98, ../sass/jquery.whitebox.scss */
+/* line 97, ../sass/jquery.whitebox.scss */
 #wb-overlay {
   background-color: #fff;
   width: 100%;
@@ -412,7 +401,7 @@ body {
   -ms-animation-duration: 0.5s;
   -o-animation-duration: 0.5s;
   animation-duration: 0.5s; }
-  /* line 109, ../sass/jquery.whitebox.scss */
+  /* line 108, ../sass/jquery.whitebox.scss */
   #whitebox.show #wb-overlay {
     -webkit-animation-name: wb-overlay-open;
     -moz-animation-name: wb-overlay-open;
@@ -421,7 +410,7 @@ body {
     animation-name: wb-overlay-open;
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
     opacity: 0.8; }
-  /* line 113, ../sass/jquery.whitebox.scss */
+  /* line 112, ../sass/jquery.whitebox.scss */
   #whitebox.hide #wb-overlay {
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
     opacity: 0;
@@ -431,7 +420,7 @@ body {
     -o-animation-name: wb-overlay-hide;
     animation-name: wb-overlay-hide; }
 
-/* line 119, ../sass/jquery.whitebox.scss */
+/* line 118, ../sass/jquery.whitebox.scss */
 #wb-modal {
   position: absolute;
   padding: 10px;
@@ -445,7 +434,7 @@ body {
   -ms-transform-origin: 50% 50%;
   -o-transform-origin: 50% 50%;
   transform-origin: 50% 50%; }
-  /* line 127, ../sass/jquery.whitebox.scss */
+  /* line 126, ../sass/jquery.whitebox.scss */
   #whitebox.show #wb-modal {
     -webkit-animation-name: wb-modal-open;
     -moz-animation-name: wb-modal-open;
@@ -457,7 +446,7 @@ body {
     -ms-animation-timing-function: cubic-bezier(0, 0.92, 0.6, 0.99);
     -o-animation-timing-function: cubic-bezier(0, 0.92, 0.6, 0.99);
     animation-timing-function: cubic-bezier(0, 0.92, 0.6, 0.99); }
-  /* line 131, ../sass/jquery.whitebox.scss */
+  /* line 130, ../sass/jquery.whitebox.scss */
   #whitebox.hide #wb-modal {
     -webkit-animation-name: wb-modal-hide;
     -moz-animation-name: wb-modal-hide;
@@ -470,11 +459,11 @@ body {
     -o-animation-timing-function: cubic-bezier(0.63, 0.02, 0.03, 1);
     animation-timing-function: cubic-bezier(0.63, 0.02, 0.03, 1); }
 
-/* line 136, ../sass/jquery.whitebox.scss */
+/* line 135, ../sass/jquery.whitebox.scss */
 #wb-iframe {
   border: 0; }
 
-/* line 139, ../sass/jquery.whitebox.scss */
+/* line 138, ../sass/jquery.whitebox.scss */
 #wb-box {
   background-color: #fff;
   border: 6px solid rgba(214, 214, 214, 0.25);
@@ -491,7 +480,7 @@ body {
   background-clip: padding-box;
   padding: 10px; }
 
-/* line 147, ../sass/jquery.whitebox.scss */
+/* line 146, ../sass/jquery.whitebox.scss */
 #wb-close {
   background-color: rgba(255, 255, 255, 0.81);
   border: 1px solid rgba(211, 211, 211, 0.4);
@@ -519,7 +508,7 @@ body {
   -moz-transition-duration: 0.2s;
   -o-transition-duration: 0.2s;
   transition-duration: 0.2s; }
-  /* line 163, ../sass/jquery.whitebox.scss */
+  /* line 162, ../sass/jquery.whitebox.scss */
   #wb-close:after {
     font-weight: bold;
     line-height: 0px;
@@ -533,6 +522,6 @@ body {
     top: -3px;
     left: 6px;
     position: absolute; }
-  /* line 175, ../sass/jquery.whitebox.scss */
+  /* line 174, ../sass/jquery.whitebox.scss */
   #wb-close:hover {
     color: #bf3718; }

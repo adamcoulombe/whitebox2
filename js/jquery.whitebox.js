@@ -24,17 +24,18 @@
     },
     getAjax:function(href){
       $.ajax(href).done(function ( data ) {
-        $content.html(data);
-        wb.show();
+        wb.display(data);
       });
     },
     getDomNode:function(href){
-      $content.html($(href).html());
-      wb.show();
+      wb.display($(href).html());
     },
     getExternal:function(href){
       $iframe.attr('src',href);
-      $content.html($iframe);
+      wb.display($iframe);
+    },
+    display:function(html){
+      $content.html(html);
       wb.show();
     },
     show:function(){
@@ -56,7 +57,7 @@
         w:$modal.outerWidth()/2,
         h:$modal.outerHeight()/2
       }
-      console.log($modal.width()/2);
+      //console.log($modal.width()/2);
       $modal.css({left:w.w/2-modalSize.w,top:w.h/2-modalSize.h});
     },
     events:{
@@ -102,6 +103,34 @@
   }
 
   wb.init();
+
+  $.whitebox = function( options , fn){
+
+    if(typeof options == "string"){
+      wb.display(options);
+    }else{
+
+      var defaults = {
+        href: null,
+        callback : null
+      }
+      options = $.extend(options,defaults);  
+
+      var external = RegExp('^((f|ht)tps?:)?//(?!' + location.host + ')');
+      var href = options.href;
+      if( external.test(href) ){
+        wb.getExternal(href);
+      }else{
+        if (href.indexOf("#") === 0) {
+          wb.getDomNode(href);
+        }else{
+          wb.getAjax(href);
+        }
+      }
+
+    }
+    
+  }
   
   $.fn.whitebox = function( options , fn) {
     var defaults = {
@@ -112,18 +141,9 @@
     return this.each(function(){
       $(this).click(function(e){
         e.preventDefault();
-        var external = RegExp('^((f|ht)tps?:)?//(?!' + location.host + ')');
-        var href = $(this).attr('href');
-        if( external.test(href) ){
-          wb.getExternal(href);
-        }else{
-          if (href.indexOf("#") === 0) {
-            wb.getDomNode(href);
-          }else{
-            wb.getAjax(href);
-          }
-        }
-        //wb.show();
+
+        $.whitebox($(this).attr('href'),fn);
+
       });
     });
 
